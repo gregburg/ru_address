@@ -8,7 +8,7 @@ setup(
     version=__version__,
     url='http://github.com/shadz3rg/ru_address',
     py_modules=['ru_address'],
-    description='Конвертор выгрузки БД ФИАС в SQL формат',
+    description='Converter FIAS to SQL',
     long_description=open('README.rst', encoding='utf-8').read(),
     license='MIT',
     packages=find_packages(),
