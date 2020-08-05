@@ -9,7 +9,7 @@ setup(
     url='http://github.com/shadz3rg/ru_address',
     py_modules=['ru_address'],
     description='Converter FIAS to SQL',
-    long_description=open('README.rst', encoding='utf-8').read(),
+    long_description=open('README.rst').read(),
     license='MIT',
     packages=find_packages(),
     install_requires=["click", 'lxml', 'psutil'],
